@@ -89,9 +89,10 @@ namespace ConsoleApp1
                                 await localrepository.DeleteAsync(localid);
                                 Console.WriteLine("Информация удалена из файла");
                                 break;
-                            
-                                
-                        
+                    case "Найти информацию по заголовку: ":
+                    case "4":
+                        Console.WriteLine("Найти информацию по заголовку");
+                        break;
                     default:
                         Console.WriteLine("Такого Варианта ответа нет");
                         break ;
